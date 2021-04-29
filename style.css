@@ -1,0 +1,195 @@
+body {
+
+	font-family: 'Marcellus', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+
+	font-family: 'Jura', sans-serif;
+	font-size: 36px;
+}
+
+
+.container {
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f4f4f2;
+	padding: 60px;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  
+}
+
+#banner-gauche {
+	width: 100%;
+	background-color: #e8e8e8;
+}
+
+#start {
+	background-color: #e8e8e8;
+	border: 6px solid #495464;
+
+}
+
+
+.inbanner {
+	background-color: #e8e8e8;
+	margin : 20px;
+	padding: 20px;
+}
+
+#banner {
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	align-self: center;
+	padding : 30px;
+}
+
+#profil {
+	border-radius: 50%;
+	width: 250px;
+	height: 290px;
+}
+
+.div-horizontal {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin : 10px auto;
+	align-self: center;
+}
+
+.titre-banner {
+	text-align: left;
+	margin-left: 60px;	
+}
+
+.bloc-gauche {
+	text-align: center;
+	background-color: #f4f4f2;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	width: 50%;
+}
+
+.bloc-droit {
+	align-items: center;
+	margin: 3px 20px 0px;
+	background-color: #f4f4f2;
+	width: 50%;
+}
+
+.center {
+	text-align: center;
+	margin : auto;
+}
+
+#orange {
+	height: 150px;
+	margin-top: 25px;
+}
+
+
+#butard {
+	height: 150px;
+	margin-top: 25px;
+}
+
+#snapevent {
+	height: 150px;
+	margin-top: 25px;
+}
+
+#milieu {
+	border: 6px solid #495464;
+	background-color: #bbbfca;
+}
+
+#milieu1 {
+	background-color: #bbbfca;
+}
+
+#autre {
+	border: 6px solid #495464;
+}
+
+
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type: none;
+ }
+li {
+ margin-left:2px;
+ float:left; 
+ }
+ul li {
+ display:block;
+ float:left;   
+ width:150px;
+ text-decoration:none;
+ text-align:center;
+ padding:20px;
+  border: 6px solid #495464;
+ border-radius: 50%;
+ margin: 10px 40px 10px;
+ }
+
+
+#ieseg {
+	height: 100px;
+}
+
+#chula {
+	height: 200px;
+}
+
+
+#intérêt {
+	height: 100px;
+}
+
+.btn {
+	border: 2px solid #495464;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: #495464;
+	color: #f4f4f2;
+	text-decoration: none;
+}
+
+.btn-bloc {
+
+	margin: 40px;
+}
+
+.btn:hover {
+	background-color: #bbbfca;
+	color: #495464;
+}
+
